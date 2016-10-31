@@ -1,0 +1,10 @@
+#
+# SSH configuration file
+# This file is used alternatively to ~/.ssh/config by backup.sh
+#
+
+# example
+#Host hostA
+#  Hostname hostA.example.com
+#  User userA
+#  IdentityFile /backup/ssh/id_rsa

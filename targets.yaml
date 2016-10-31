@@ -1,0 +1,25 @@
+#hostA-dir1:
+#  Host: hostA
+#  option: "--delete"
+#  fileset:
+#    include: [
+#      "/path/to/dir1"
+#    ]
+#  dest: "/dest/path/to/dir1"
+#  log: "logs/hostA.log"
+
+#hostB-wholeBackup:
+#  host: hostB
+#  option: "--delete"
+#  fileset:
+#    include: [
+#      "/"
+#    ]
+#    exclude: [
+#      "/proc",
+#      "/tmp",
+#      "/.journal",
+#      "/.fsck"
+#    ]
+#  log: "logs/hostB.log"
+
