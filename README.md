@@ -2,7 +2,7 @@ simple-backupper
 ===
 
 ## What this is
-`simple-backupper` is a simple backup utiity written in python, focusing on just copying specific directories on on a machine using **acp** and **rsync**.
+**simple-backupper** is a simple backup utiity written in python, focusing on just copying specific directories on on a machine using **scp** and **rsync**.
  
 
 ## Configuration
@@ -10,7 +10,7 @@ Edit **`targets.yaml`** to configure the backup targets and their destinations. 
 
 **NOTE** comments are not supported in the yaml file, so make sure to eliminate all of the comments, or the backupper may crash with an error.
 
-```text:targets.yaml
+```yaml
 hostA-dir1:
   Host: hostA
   option: "--delete"
